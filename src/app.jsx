@@ -2,7 +2,8 @@ import React from 'react';
 import './app.css';
 
 function App() {
-  return <h1>hello :)</h1>;
+  const name = 'pearl';
+  return <h1>hello {name}:)</h1>;
   
 }
 
